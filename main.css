@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	width: 100%;
+}
+
+.menu {
+	height: 100px;
+	width: 100%;
+}
+
+.menu-item-logo {
+	height: 100%;
+	width: 100px;
+}
+
+.menu-item {
+	height: 150px;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+.menu-img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 650px) {
+.menu-item {
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 500px) {
+.menu-item {
+	font-size: 15px;
+}
+}
+
+@media screen and (max-width: 370px) {
+.menu-item {
+	font-size: 10px;
+}
+}
